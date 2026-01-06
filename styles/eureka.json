@@ -1,28 +1,24 @@
 {
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 3,
-    "title": "Oceanside",
+    "title": "Eureka",
     "settings": {
-        "appearanceTools": true,
         "color": {
-            "defaultDuotone": false,
-            "defaultGradients": false,
-            "defaultPalette": false,
             "palette": [
                 {
                     "name": "Primary",
                     "slug": "primary",
-                    "color": "#046b99"
+                    "color": "#3E4B4D"
                 },
                 {
                     "name": "Highlight",
                     "slug": "highlight",
-                    "color": "#FDB81E"
+                    "color": "#D9B295"
                 },
                 {
                     "name": "Contrast",
                     "slug": "contrast",
-                    "color": "#323A45"
+                    "color": "#21272A"
                 },
                 {
                     "name": "Base",
@@ -32,17 +28,17 @@
                 {
                     "name": "Secondary 1",
                     "slug": "secondary-1",
-                    "color": "#EEF8FB"
+                    "color": "#F9F4F0"
                 },
                 {
                     "name": "Secondary 2",
                     "slug": "secondary-2",
-                    "color": "#87B8CE"
+                    "color": "#E2DFDA"
                 },
                 {
                     "name": "Secondary 3",
                     "slug": "secondary-3",
-                    "color": "#4993b5"
+                    "color": "#ccc8bf"
                 },
                 {
                     "color": "#ffffff",
@@ -106,50 +102,5 @@
                 }
             ]
         }
-    },
-    "styles": {},
-    "customTemplates": [],
-    "templateParts": [
-        {
-            "name": "header",
-            "title": "Header",
-            "area": "header"
-        },
-        {
-            "name": "main-content",
-            "title": "Main content",
-            "area": "uncategorized"
-        },
-        {
-            "name": "list-of-articles",
-            "title": "List of articles",
-            "area": "uncategorized"
-        },
-        {
-            "name": "footer",
-            "title": "Footer",
-            "area": "footer"
-        },
-        {
-            "name": "search",
-            "title": "Search",
-            "area": "uncategorized"
-        },
-        {
-            "name": "site-header",
-            "title": "Site header",
-            "area": "header"
-        },
-        {
-            "name": "site-navigation",
-            "title": "Site navigation",
-            "area": "uncategorized"
-        },
-        {
-            "name": "utility-header",
-            "title": "Utility header",
-            "area": "header"
-        }
-    ],
-    "patterns": []
+    }
 }
