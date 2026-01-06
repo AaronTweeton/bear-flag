@@ -5,6 +5,9 @@
     "settings": {
         "appearanceTools": true,
         "color": {
+            "custom": false,
+            "customDuotone": false,
+            "customGradient": false,
             "defaultDuotone": false,
             "defaultGradients": false,
             "defaultPalette": false,
@@ -104,10 +107,50 @@
                     "name": "Black",
                     "slug": "black"
                 }
+            ],
+            "text": false,
+            "link": false
+        },
+        "typography": {
+            "customFontSize": false,
+            "dropCap": false,
+            "fontStyle": false,
+            "letterSpacing": false,
+            "textDecoration": false,
+            "fontFamilies": [
+                {
+                    "name": "Primary",
+                    "slug": "Primary",
+                    "fontFamily": "'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', sans-serif;",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Public Sans",
+                            "fontWeight": "400 700",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/PublicSans-VariableFont_wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Public Sans",
+                            "fontWeight": "400 700",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/PublicSans-Italic-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
+                }
             ]
         }
     },
-    "styles": {},
+    "styles": {
+        "typography": {
+            "fontFamily": "var:preset|font-family|primary"
+        }
+    },
     "customTemplates": [],
     "templateParts": [
         {
